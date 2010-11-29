@@ -7,8 +7,10 @@ gem 'rails', '3.0.3'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
-gem 'em-synchrony', '0.2.0' 
+gem 'em-synchrony', '0.2.0'
+gem 'em-http-request', '0.2.15'
 gem 'eventmachine', '0.12.10'
+gem 'json'
 
 # Use unicorn as the web server
 # gem 'unicorn'

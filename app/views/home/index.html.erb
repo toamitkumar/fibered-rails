@@ -1,0 +1,16 @@
+<div>
+  <div class="public">
+    <ul>
+      <%@public_timeline.each do |r| -%>
+      <li><%=r%></li>
+      <%end -%>
+    </ul>
+  </div>
+  <div class="followers">
+    <ul>
+      <%@followers.each do |r| -%>
+      <li><%=r[:name]%> (<%=r[:screen_name]%>)</li>
+      <%end -%>
+    </ul>
+  </div>
+</div>
