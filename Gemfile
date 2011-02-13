@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
+gem 'rails', '3.0.4'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -8,8 +8,8 @@ gem 'rails', '3.0.3'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
 gem 'em-synchrony', '0.2.0'
-gem 'em-http-request', '0.2.15'
-gem 'eventmachine', '0.12.10'
+gem 'em-http-request', '0.3.0'
+gem 'eventmachine', '1.0.0.beta.2'
 gem 'json'
 
 # Use unicorn as the web server
